@@ -1,0 +1,33 @@
+.app-container {
+	transition: all 0.5s ease;
+}
+
+.library-open {
+	margin-left: 20rem;
+}
+.song-container {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 5.5vh;
+	min-height: 5vh;
+	max-height: 60vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.current-song-img-menu {
+	width: 300px;
+	height: auto;
+	transition: transform 0.3s ease;
+}
+
+.current-song-img-menu:hover {
+	transform: scale(1.1);
+}
